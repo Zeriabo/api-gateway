@@ -24,6 +24,14 @@ spring:
           uri: lb://zwash-service
           predicates:
             - Path=/zwash-service/**
+        - id: booking-service
+          uri: lb://booking-service  
+          predicates:
+            - Path=/booking-service/**
+        - id: station-service
+          uri: lb://station-service  
+          predicates:
+            - Path=/station-service/**
             
 eureka:
   client:
