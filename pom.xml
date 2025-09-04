@@ -123,6 +123,4 @@
 		</plugins>
 	</build>
 
-	<!-- Removed milestone repo since we use stable Spring Cloud -->
-
 </project>
